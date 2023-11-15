@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../images/Inicio/El-Buen-Fin-2014.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content__1{
+    width: 100%;
+    background: white;
+    padding: 50px; /*para que se vea la imagen de fondo*/
+    margin-top: 80vh; /*LINEA 22 AQUI ME QUEDE 35:50*/
+}
+
+.content__1 h1{
+    text-align: center;
+}
+/*Todo el contenedor de todos los iconos*/
+.content__icon-all{
+    *background: greenyellow;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*contenedor de los iconos cada uno*/
+.content__icon{
+    width: 200px;
+    *background: red;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    margin-top: 20px;
+}
+
+.content__icon:hover{
+    -webkit-box-shadow: 0px 10px 40px -3px black;
+    box-shadow: 0px 10px 40px -3px black;
+}
+/*imagen de cada contenedor*/
+.content__icon img{
+    *width: 100%;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 40px -5px black;
+    box-shadow: 0px 0px 40px -5px black;
+}
+
+.content__icon h4{
+    margin-top: 10px;
+}
+
+.content__icon p{
+    margin-top: 10px;
+}
+
+
+hr{
+    border-top: 3px solid #4f4f4f;
+    border-bottom: 3px solid #4f4f4f;
+    border-left: none;
+    border-right: none;
+    height: 12px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.parrafo1{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 800px;
+    font-size: 20px;
+}
+/*-----------------------------------------------------------------------------*/
+/*content__2*/
+
+.content__2{
+    background-image: url(../images/Inicio/El-Buen-Fin-2014.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content__item-1{
+    width: 80%;
+    margin: auto;
+    background: #201f1f; /*#59cdc0*/
+    text-align: center;
+    padding: 20px;
+    margin-top: 40vh; /*opcional*/
+}
+
+.content__item-1 img{
+    width: 100%;
+    max-width: 800px;
+}
+
+.content__item-1 h1{
+    margin-top: 20px;
+    color: white;
+}
+
+.content__item-1 p{
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.content__item-1 ul, li{
+    text-align: justify;
+    max-width: 800px;
+    margin-left: 140px;
+    /*margin-top: 20px;*/
+    font-size: 20px;
+    color: white;
+}
+
+/*-------------------------------------------------------------*/
+/*content__3*/
+
+.content__3{
+    width: 100%;
+    height: 50vh;
+    margin-top: 200px;
+}
